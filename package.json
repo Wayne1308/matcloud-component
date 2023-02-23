@@ -1,75 +1,76 @@
 {
-  "name": "matcloud-component",
-  "version": "0.0.1-alpha.1",
-  "description": "基于elementUI-plus的高阶组件库",
-  "private": false,
-  "scripts": {
-    "dev": "vite",
-    "docs:dev": "vitepress dev docs",
-    "build": "vite build ",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs",
-    "build:production": "vue-tsc --noEmit && vite build --mode production"
-  },
-  "keywords": [
-    "vue3",
-    "vite",
-    "component",
-    "ui",
-    "typescript"
-  ],
-  "author": "Wayne1308",
-  "license": "ISC",
-  "main": "dist/matcloud-component.umd.js",
-  "module": "dist/matcloud-component.es.js",
-  "style": "dist/style.css",
-  "type": "module",
-  "files": [
-    "types",
-    "dist",
-    "scss",
-    "volar.d.ts",
-    "packages/components/*/style"
-  ],
-  "types": "./types/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/matcloud-component.es.js",
-      "require": "./dist/matcloud-component.umd.js",
-      "types": "./types/index.d.ts"
+    "name": "matcloud-component",
+    "version": "0.0.1-alpha.1",
+    "description": "基于elementUI-plus的高阶组件库",
+    "private": false,
+    "scripts": {
+        "dev": "vite",
+        "docs:dev": "vitepress dev docs",
+        "build": "vite build ",
+        "docs:build": "vitepress build docs",
+        "docs:serve": "vitepress serve docs",
+        "build:production": "vue-tsc --noEmit && vite build --mode production"
     },
-    "./dist/style.css": "./dist/style.css",
-    "./scss/*": "./scss/*",
-    "./volar.d.ts": "./volar.d.ts",
-    "./style": "./packages/components/style.ts",
-    "./package.json": "./package.json"
-  },
-  "peerDependencies": {
-    "vue": "^3.2.37"
-  },
-  "devDependencies": {
-    "@types/node": "^18.11.9",
-    "@vitejs/plugin-vue": "^3.2.0",
-    "@vitejs/plugin-vue-jsx": "^2.1.0",
-    "@vitepress-demo-preview/component": "^2.0.2",
-    "@vitepress-demo-preview/plugin": "^1.1.5",
-    "browserify-fs": "^1.0.0",
-    "fast-glob": "^3.2.12",
-    "less": "^4.1.3",
-    "markdown-it": "^13.0.1",
-    "sass": "^1.56.1",
-    "type-fest": "^3.2.0",
-    "typescript": "^4.8.4",
-    "unplugin-element-plus": "^0.4.1",
-    "vite": "^3.2.3",
-    "vite-plugin-dts": "^1.7.1",
-    "vite-plugin-md": "^0.20.4",
-    "vitepress": "1.0.0-alpha.40",
-    "vue": "^3.2.45",
-    "vue-router": "^4.1.6",
-    "vue-tsc": "^1.0.9"
-  },
-  "dependencies": {
-    "element-plus": "^2.2.22"
-  }
+    "keywords": [
+        "vue3",
+        "vite",
+        "component",
+        "ui",
+        "typescript"
+    ],
+    "author": "Wayne1308",
+    "license": "ISC",
+    "main": "dist/matcloud-component.umd.js",
+    "module": "dist/matcloud-component.es.js",
+    "style": "dist/style.css",
+    "type": "module",
+    "files": [
+        "types",
+        "dist",
+        "scss",
+        "volar.d.ts",
+        "packages/components/*/style"
+    ],
+    "types": "./types/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/matcloud-component.es.js",
+            "require": "./dist/matcloud-component.umd.js",
+            "types": "./types/index.d.ts"
+        },
+        "./dist/style.css": "./dist/style.css",
+        "./scss/*": "./scss/*",
+        "./volar.d.ts": "./volar.d.ts",
+        "./style": "./packages/components/style.ts",
+        "./package.json": "./package.json"
+    },
+    "peerDependencies": {
+        "vue": "^3.2.37"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.9",
+        "@vitejs/plugin-vue": "^3.2.0",
+        "@vitejs/plugin-vue-jsx": "^2.1.0",
+        "@vitepress-demo-preview/component": "^2.0.2",
+        "@vitepress-demo-preview/plugin": "^1.1.5",
+        "browserify-fs": "^1.0.0",
+        "fast-glob": "^3.2.12",
+        "less": "^4.1.3",
+        "markdown-it": "^13.0.1",
+        "sass": "^1.56.1",
+        "type-fest": "^3.2.0",
+        "typescript": "^4.8.4",
+        "unplugin-element-plus": "^0.4.1",
+        "vite": "^3.2.3",
+        "vite-plugin-dts": "^1.7.1",
+        "vite-plugin-md": "^0.20.4",
+        "vitepress": "1.0.0-alpha.40",
+        "vue": "^3.2.45",
+        "vue-router": "^4.1.6",
+        "vue-tsc": "^1.0.9"
+    },
+    "dependencies": {
+        "@element-plus/icons-vue": "^2.0.10",
+        "element-plus": "^2.2.22"
+    }
 }

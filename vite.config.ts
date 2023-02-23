@@ -19,7 +19,7 @@ export default defineConfig({
                 replacement: pathResolve("./docs/*"),
             },
             {
-                find: "@matcloud-component",
+                find: "matcloud-component",
                 replacement: pathResolve("packages"),
             },
         ],
@@ -38,6 +38,14 @@ export default defineConfig({
                 globals: {
                     vue: "Vue", // 在 UMD 构建模式下为这些外部化的依赖提供一个全局变量
                 },
+            },
+        },
+    },
+    css: {
+        // 这里引入样式文件
+        preprocessorOptions: {
+            scss: {
+                // additionalData: `@use "@/scss/element-plus/index.scss" as *;`,
             },
         },
     },

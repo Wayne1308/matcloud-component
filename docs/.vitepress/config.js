@@ -31,6 +31,7 @@ export default defineConfig({
         config(md) {
             md.use(componentPreview);
             md.use(containerPreview);
+            debugger;
         },
     },
 });

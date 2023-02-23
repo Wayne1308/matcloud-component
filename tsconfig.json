@@ -12,7 +12,7 @@
     "lib": ["esnext", "dom"],
     "baseUrl": ".",
     "paths": {
-      "@way-ui": ["packages"]
+      "matcloud-component/*": ["packages/*"]
     },
       "noImplicitThis": false,
       "types": ["vite/client"]

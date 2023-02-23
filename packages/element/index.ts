@@ -1,1 +1,1 @@
-export  { ElButton, ElDialog } from "element-plus";
+export  { ElButton, ElDialog, ElInput } from "element-plus";

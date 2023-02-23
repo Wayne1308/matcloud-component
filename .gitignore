@@ -5,3 +5,4 @@ docs/.vitepress/dist
 types
 
 yarn.lock
+yarn-error.log
