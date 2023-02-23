@@ -15,12 +15,13 @@ export const sidebar: DefaultTheme.Sidebar = {
             text: "通用基础组件",
             items: [
                 { text: "示例组件", link: "/pages/demos/basic/button/",  },
+                { text: "Input 输入框", link: "/pages/demos/basic/input/"  },
             ],
         },
         {
             text: "通用业务组件",
             items: [
-                { text: "通用组件 1", link: "/pages/demos/business/button/" },
+                { text: "Theme 主题", link: "/pages/demos/business/theme/"  },
             ],
         },
         {
